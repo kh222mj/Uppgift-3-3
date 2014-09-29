@@ -43,33 +43,34 @@ table {
 }
 #container
 {
-	width: 800px;
+	width: 780px;
 	margin: 10px auto;
 	text-align: left;
 	border: 1px solid black;
+	border-bottom: none;
 }
 #topbar
 {
-	width: 800px;
-	height: 290px;
+	width: 780px;
+	height: 280px;
 	text-align: right;
-	text-decoration: italic;
+	font: italic 10px Verdana;
+	line-height: 20px;
 	background: #2B406F;
 	color: #FFFFFF;
 	background-image: url("pics/coffey.jpg");
 	background-position: bottom; 
 	background-repeat: no-repeat;
 	background-size: 100%;
-	padding-top: 5px;
 }
 #menu {
-	height: 35px;
+	height: 40px;
 	background: #D0D7E6;
 	padding-left: 5px;
 }
 #menu li {
 	list-style: none;
-	font: bold 14px tahoma;
+	font: normal 18px Times;
 	float: left;
 	padding-top: 5px;
 	padding-right: 1px;
@@ -78,11 +79,11 @@ table {
 	background: #2B406F;
 	text-decoration: none;
 	display: block;
-	width: 125px;
-	height: 30px;
+	width: 130px;
+	height: 35px;
 	text-align: center;
 	color: #FFFFFF;
-	line-height: 25px;
+	line-height: 33px;
 }
 #menu a:hover {
 	background: #000000;
@@ -90,10 +91,70 @@ table {
 #content 
 {
 	float: left;
-	width: 660px;
-	margin: 10px;
+	width: 760px;
+	padding: 10px;
+	border: 1px solid black;
+	border-top: none;
 }
 #menu a 
 {
     display: none;
+}
+/*Lorem Ipsum*/
+#maincontent {
+    display: block;
+    width: 400px;
+    float: left;
+    margin-top: 15px;
+}
+#maincontent h1 {
+	font: normal 30px Times;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+#maincontent img {
+    float: left;
+    margin: 5px;
+}
+#maincontent p {
+    font: normal 15px Times;
+    line-height: 25px;
+}
+/*Quisque*/ 
+#subcontent {
+    display: block;
+    width: 345px;
+    float: left;
+    margin-left: 10px;
+    height: 326px;
+    border-left: 1px dotted black;
+    margin-top: 15px;
+
+}
+#subcontent h1 {
+    font: 20px Verdana;
+	padding-bottom: 15px;
+	padding-left: 5px;
+	padding-top: 13px;
+}
+#subcontent h2 {
+    font: 15px Verdana;
+	padding-top: 30px;
+	padding-left: 5px;
+}
+#subcontent p {
+    font: 10px Verdana;
+    padding-left: 5px;
+    line-height: 20px;
+}
+#subcontent a {
+    padding-left: 5px;
+    color: black;
+    line-height: 20px;
+}
+#bottomcontent {
+    text-align: left;
+    float: left;
+    font: italic 10px Verdana;
+    padding-top: 10px;
 }
