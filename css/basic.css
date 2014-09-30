@@ -41,6 +41,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Style för hela sidan */
 #container
 {
 	width: 780px;
@@ -49,6 +50,7 @@ table {
 	border: 1px solid #514A45;
 	border-bottom: none;
 }
+/* Style för bild/header */
 #topbar
 {
 	width: 780px;
@@ -63,6 +65,7 @@ table {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
+/* Style för meny */
 #menu {
 	height: 40px;
 	background: #2D2016;
@@ -74,6 +77,7 @@ table {
 	float: left;
 	padding-top: 5px;
 	padding-right: 1px;
+	text-transform: capitalize;
 }
 #menu li a {
 	background: #514A45;
@@ -88,15 +92,18 @@ table {
 #menu a:hover {
 	background: #B0A399;
 }
+/* Class active som pekar på vilken sida vi är på */
 #menu .active a {
 	display: block;
 	background: #E4DAD2;
 	color: #514A45;
 }
+/* Gömmer element, finns inte med på bilden */
 #menu a 
 {
     display: none;
 }
+/* Style för hela content */ 
 #content 
 {
 	float: left;
@@ -159,6 +166,7 @@ table {
     line-height: 20px;
     color: #514A45;
 }
+/* Style för footer */
 #bottomcontent {
     text-align: left;
     float: left;
