@@ -63,8 +63,6 @@ table {
 	background-repeat: no-repeat;
 	background-size: 100%;
 }
-.active {
-}
 #menu {
 	height: 40px;
 	background: #2D2016;
@@ -90,6 +88,11 @@ table {
 #menu a:hover {
 	background: #B0A399;
 }
+#menu .active a {
+	display: block;
+	background: #E4DAD2;
+	color: #514A45;
+}
 #menu a 
 {
     display: none;
@@ -109,6 +112,7 @@ table {
     width: 400px;
     float: left;
     margin-top: 15px;
+    color: #514A45;
 }
 #maincontent h1 {
 	font: normal 30px Times;
@@ -132,7 +136,7 @@ table {
     height: 326px;
     border-left: 1px dotted #514A45;
     margin-top: 15px;
-
+	color: #514A45;
 }
 #subcontent h1 {
     font: 20px Verdana;
@@ -152,12 +156,13 @@ table {
 }
 #subcontent a {
     padding-left: 5px;
-    color: black;
     line-height: 20px;
+    color: #514A45;
 }
 #bottomcontent {
     text-align: left;
     float: left;
     font: italic 10px Verdana;
     padding-top: 10px;
+    color: #514A45;
 }
